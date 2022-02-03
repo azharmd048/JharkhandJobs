@@ -1,0 +1,147 @@
+/*index.html*/
+.card:hover{
+    transform: scale(1.05);
+}
+body{
+    font-family: 'Baloo Bhai 2', cursive;;
+    background-color: black;
+    color:whitesmoke;
+    font-size: 22px;
+    line-height: 1.8;
+}
+body .btn{
+    background-color: tomato;
+    color: black;
+    border: 2px solid rgb(255, 0, 0);
+}
+.navbar{
+    background-color:rgb(27, 26, 26);
+    color: whitesmoke;
+}
+.card {
+    background-color: rgb(27, 26, 26);
+
+}
+
+#head_container #my_about{
+    border-radius: 50px;
+    margin-top: 20px;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+    transition:2s
+
+}
+#head_container #my_about:hover{
+    border: 2px solid aqua;
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+#head_container #about_cont1 {
+    color: aqua;
+    font-weight: bold;
+}
+#head_container #about_cont2 {
+    color: aqua;
+    font-weight: bold;
+    margin-top: 15px;
+}
+#head_container #about_cont1:hover {
+    transform: scale(1.2);
+ }
+ #head_container #about_cont2:hover {
+    transform: scale(1.2);
+ }
+
+#head_container span{
+    display: inline;
+    font-size: 3rem;
+    font-weight: 900;
+    color: gray;
+    visibility: hidden;
+   
+    display: inline-block;
+
+}
+#head_container span:hover{
+    color: aqua;
+    transform: rotate(23deg) scale(1.3);
+
+   
+}
+#contact_footer{
+    width: 100%;
+    height: 90px;
+    margin-top: 232px;
+}
+#contact_btn{
+    margin-top: 35px;
+}
+
+#container_btn{
+    margin-top: 50px;
+    
+}
+#container_btn button:hover{
+   border: 2px solid whitesmoke;
+   color: whitesmoke;
+   background-color: black;
+}
+#row_about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+}
+#col_about{
+    display: block;
+    width: 255px;
+    height: 430px;
+    text-align: center;
+    background-color: tomato;
+    border-radius: 20px;
+    border: rgb(255, 0, 0) 2px solid;
+    margin-top: 20px;
+    margin-bottom: 80px
+   
+   
+}
+#col_about img{
+    display: block;
+    margin: 0px auto;
+    border-radius: 20px;
+    transition:height 2s;
+    border-bottom: rgb(255, 0, 0) 4px solid;
+}
+#col_about img:hover{
+    height: 430px;
+   
+}
+#row_container{
+    display: block;
+    width: 250px;
+    margin: 0px auto;
+    padding: 0px 0px;
+    text-align: left;
+    color:white
+}
+#row_container p{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+#row_container h1{
+    padding: 20px 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+   
+}
+footer{
+    background-color:black
+}
