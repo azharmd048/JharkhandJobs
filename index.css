@@ -1,0 +1,39 @@
+.heading {
+    display: flex;
+    margin: 20px 20px;
+}
+
+.main-container {
+    display: block;
+    border: 2px solid blue;
+    margin: 40px 50px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.first-container {
+    line-height: 2;
+    display: block;
+}
+
+.first-container ul {
+    text-align: center;
+}
+
+.first-container ul li {
+    text-align: center;
+}
+
+.second-container {
+    line-height: 2;
+    display: block;
+    margin: auto;
+}
+
+.second-container ul {
+    text-align: center;
+}
+
+.second-container ul li {
+    text-align: center;
+}
